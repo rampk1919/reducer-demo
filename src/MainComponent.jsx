@@ -5,7 +5,7 @@ import AddComponent from "./components/AddComponent";
 import  ListComponent  from './components/ListComponent';
 import AddProduct from './actions/actions';
 import SelectProduct from './actions/selectproductAction';
-import SimpleComponent from './components/simpleComponent';
+
 export const MainComponent=()=> {
 
     let products = useSelector(state=>state.ListProductReducer);
